@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soalan">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kucing4" />
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="339dp"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="338dp"
+        android:layout_marginRight="338dp"
+         />
+
+
+
+    <TextView
+        android:id="@+id/soalan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Soalan"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/countLabel"/>
+
+    <Button
+            android:id="@+id/answer1btn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="answer"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/soalan"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            android:onClick="checkAnswer"
+
+           />
+    <Button
+        android:id="@+id/answer2btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="answer"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/answer1btn"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:onClick="checkAnswer"
+        />
+    <Button
+        android:id="@+id/answer3btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="answer"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/answer2btn"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:onClick="checkAnswer"
+        />
+
+    <Button
+        android:id="@+id/answer4btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="answer"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/answer3btn"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:onClick="checkAnswer"
+        />
+
+
+    <!--    <TextView-->
+<!--        android:id="@+id/countLabel"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="soalan 1"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_above="@id/answer1btn"/>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/soalan"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="295dp"-->
+<!--        android:layout_marginLeft="295dp"-->
+<!--        android:layout_marginTop="81dp"-->
+<!--        android:layout_marginEnd="289dp"-->
+<!--        android:layout_marginRight="289dp"-->
+<!--        android:text="Soalan"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="12sp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--      />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/answer1btn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="answer"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_below="@id/soalan"-->
+<!--        android:background="@drawable/button"-->
+<!--       />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/answer2btn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="answer"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_below="@id/answer1btn"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/answer3btn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="answer"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_below="@id/answer2btn"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:layout_marginTop="10dp" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/answer4btn"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="answer"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_below="@id/answer3btn"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+</RelativeLayout>
